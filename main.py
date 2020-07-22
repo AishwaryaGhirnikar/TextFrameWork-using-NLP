@@ -2,7 +2,6 @@ from Text_Fw.constant_enum import *
 
 class Main():
 
-
     def preprocessing_text(self, text, lib_name, funcion_name, param_dict):
         classname = LibraryBase.get(lib_name,"nltk")
         class_ref = classname(text)
